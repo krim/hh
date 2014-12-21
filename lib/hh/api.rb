@@ -5,7 +5,9 @@ module HH
 
     API_URL = "https://api.hh.ru/"
 
-    include VacancyEmployer
+    include EmployerVacancies
+    include Industries
+    include Dictionaries
     include Specialization
     include Employment
     include Statistic
@@ -14,7 +16,6 @@ module HH
     include Schedule
     include Vacancy
     include Region
-    include Field
     include Metro
   end #API
 end #HH

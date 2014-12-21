@@ -4,11 +4,11 @@ module HH
   module API
     module Region
       def regions
-        get("region/all")
+        get("areas")
       end
 
-      def region(region_id)
-        get("region/#{region_id}")
+      def region(area_id)
+        get("areas/#{area_id}")
       end
     end
   end #API

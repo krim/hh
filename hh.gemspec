@@ -6,7 +6,7 @@ require 'hh/version'
 Gem::Specification.new do |spec|
   spec.name          = 'hh'
   spec.version       = HH::VERSION
-  spec.authors       = ['Igor Varavko']
+  spec.authors       = ['Igor Varavko', 'Pavel Rodionov']
   spec.email         = ['ivaravko@me.com']
   spec.description   = %q{A Ruby interface to the HeadHanter.}
   spec.summary       = spec.description

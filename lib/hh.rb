@@ -26,7 +26,7 @@ module HH
   end
 end #HH
 
-require 'hh/API/vacancy_employer'
+require 'hh/API/employer_vacancies'
 require 'hh/API/specialization'
 require 'hh/API/employment'
 require 'hh/API/statistic'
@@ -35,8 +35,9 @@ require 'hh/API/currency'
 require 'hh/API/employer'
 require 'hh/API/vacancy'
 require 'hh/API/region'
-require 'hh/API/field'
 require 'hh/API/metro'
+require 'hh/API/industries'
+require 'hh/API/dictionaries'
 require 'hh/api'
 require 'hh/request'
 require 'hh/client'
