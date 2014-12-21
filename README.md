@@ -1,11 +1,11 @@
 # The Hh Ruby Gem
 
 [![Gem Version](https://badge.fury.io/rb/hh.png)](http://badge.fury.io/rb/hh)
-[![Build Status](https://travis-ci.org/ivaravko/hh.png?branch=master)](https://travis-ci.org/ivaravko/hh)
-[![Dependency Status](https://gemnasium.com/ivaravko/hh.png)](https://gemnasium.com/ivaravko/hh)
-[![Coverage Status](https://coveralls.io/repos/ivaravko/hh/badge.png?branch=master)](https://coveralls.io/r/ivaravko/hh)
+[![Build Status](https://travis-ci.org/krim/hh.png?branch=master)](https://travis-ci.org/krim/hh)
+[![Dependency Status](https://gemnasium.com/krim/hh.png)](https://gemnasium.com/krim/hh)
+[![Coverage Status](https://coveralls.io/repos/krim/hh/badge.png?branch=master)](https://coveralls.io/r/krim/hh)
 
-A Ruby interface to the HeadHanter
+A Ruby interface to the HeadHunter
 
 ## Installation
 
