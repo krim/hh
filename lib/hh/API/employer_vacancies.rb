@@ -4,7 +4,7 @@ module HH
   module API
     module EmployerVacancies
       def employer_vacancies(employer_id)
-        get("/employers/#{employer_id}/vacancies")
+        get("employers/#{employer_id}/vacancies")
       end
     end
   end

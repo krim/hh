@@ -5,7 +5,7 @@ require 'spec_helper'
 describe HH::API::Vacancy do
   let(:client) { HH::Client.new }
   let(:vacancy_id) { 2618300 }
-  let(:request_path) { "vacancy/#{vacancy_id}" }
+  let(:request_path) { "vacancies/#{vacancy_id}" }
 
   describe "#vacancy" do
     before do

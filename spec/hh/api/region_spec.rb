@@ -7,12 +7,12 @@ describe HH::API::Region do
 
   describe "#regions" do
     before do
-      stub_get("region/all").to_return(body: fixture("regions_all.json"), headers: {content_type: "application/json; charset=utf-8"})
+      stub_get("areas").to_return(body: fixture("regions_all.json"), headers: {content_type: "application/json; charset=utf-8"})
     end
 
     it "requests the correct resource" do
       client.regions
-      expect(a_get("region/all")).to have_been_made
+      expect(a_get("areas")).to have_been_made
     end
 
     it "returns the requested regions all" do
@@ -25,12 +25,12 @@ describe HH::API::Region do
 
   describe "#region" do
     before do
-      stub_get("region/1").to_return(body: fixture("region.json"), headers: {content_type: "application/json; charset=utf-8"})
+      stub_get("areas/1").to_return(body: fixture("region.json"), headers: {content_type: "application/json; charset=utf-8"})
     end
 
     it "requests the correct resource" do
       client.region(1)
-      expect(a_get("region/1")).to have_been_made
+      expect(a_get("areas/1")).to have_been_made
     end
 
     it "returns the requested regions all" do
