@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['ivaravko@me.com']
   spec.description   = %q{A Ruby interface to the HeadHanter.}
   spec.summary       = spec.description
-  spec.homepage      = 'http://github.com/ivaravko/hh/'
+  spec.homepage      = 'http://github.com/krim/hh/'
   spec.license       = 'MIT'
 
   spec.files         += `git ls-files`.split($/)
