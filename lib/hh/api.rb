@@ -3,7 +3,7 @@
 module HH
   module API
 
-    API_URL = "https://api.hh.ru/1/json/"
+    API_URL = "https://api.hh.ru/"
 
     include VacancyEmployer
     include Specialization
