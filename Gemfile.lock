@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hh (0.0.5)
+    hh (0.0.6)
       faraday (~> 0.8, < 0.10)
       faraday_middleware (~> 0.9, < 0.11)
       multi_json (~> 1.7)
@@ -33,7 +33,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (10.4.2)
+    rake (0.9.6)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rspec (3.1.0)
@@ -72,7 +72,7 @@ DEPENDENCIES
   coveralls
   hh!
   pry
-  rake
+  rake (~> 0)
   rspec (>= 2.13)
   simplecov
   webmock
